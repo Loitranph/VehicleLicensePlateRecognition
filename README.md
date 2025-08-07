@@ -1,7 +1,8 @@
 # 🚗 Vehicle License Plate Recognition (VLPR)
 
 A Python-based application that detects and recognizes Vietnamese vehicle license plates from images using OpenCV and Tesseract OCR.
-![Demo](https://github.com/Loitranph/VehicleLicensePlateRecognition/assets/your-demo.gif)
+
+![Demo](https://github.com/Loitranph/VehicleLicensePlateRecognition/)
 
 ---
 
@@ -24,18 +25,61 @@ A Python-based application that detects and recognizes Vietnamese vehicle licens
 ---
 
 ## 📂 Folder Structure
+
+```
 VehicleLicensePlateRecognition/
-
 │
+├── input_images/           # Folder for testing images
+├── output_images/          # Folder to save annotated images
+├── main.py                 # Main detection and OCR script
+├── utils.py                # Image preprocessing functions
+├── README.md               # Project documentation
+└── requirements.txt        # Required libraries
+```
 
-├── input_images/ # Folder for testing images
+---
 
-├── output_images/ # Folder to save annotated images
+## ⚙️ Installation
 
-├── main.py # Main detection and OCR script
+1. Clone the repository:
 
-├── utils.py # Image preprocessing functions
+```bash
+git clone https://github.com/Loitranph/VehicleLicensePlateRecognition.git
+cd VehicleLicensePlateRecognition
+```
 
-├── README.md # Project documentation
+2. Install dependencies:
 
-└── requirements.txt # Required libraries
+```bash
+pip install -r requirements.txt
+```
+
+3. (Windows only) Download and install [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), then add it to system PATH.
+
+---
+
+## 🚀 Usage
+
+Run the main script:
+
+```bash
+python main.py
+```
+
+Results (with bounding boxes and text) will be saved to `output_images/`.
+
+---
+
+## 📊 Example Output
+
+| Input Image | Detection Result |
+|-------------|------------------|
+| ![input](input_images/car1.jpg) | ![output](output_images/car1_output.jpg) |
+
+---
+
+## 🧑‍💻 Author
+
+- **Phuoc Loi Tran** – [GitHub](https://github.com/Loitranph)
+
+---
