@@ -27,6 +27,7 @@ A Python-based application that detects and recognizes Vietnamese vehicle licens
 ## 📂 Folder Structure
 VehicleLicensePlateRecognition/
 │
+
 ├── input_images/ # Folder for testing images
 
 ├── output_images/ # Folder to save annotated images
