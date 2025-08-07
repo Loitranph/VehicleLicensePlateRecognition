@@ -27,8 +27,8 @@ A Python-based application that detects and recognizes Vietnamese vehicle licens
 ```
 VehicleLicensePlateRecognition/
 │
-├── main.py                 # Main detection and OCR script
-└── README.md               # Project documentation
+├── VehicleLicensePlateRecognition.py    # Main detection and OCR script
+└── README.md                            # Project documentation
 ```
 
 ---
