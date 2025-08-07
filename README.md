@@ -28,8 +28,13 @@ A Python-based application that detects and recognizes Vietnamese vehicle licens
 VehicleLicensePlateRecognition/
 │
 ├── input_images/ # Folder for testing images
+
 ├── output_images/ # Folder to save annotated images
+
 ├── main.py # Main detection and OCR script
+
 ├── utils.py # Image preprocessing functions
+
 ├── README.md # Project documentation
+
 └── requirements.txt # Required libraries
