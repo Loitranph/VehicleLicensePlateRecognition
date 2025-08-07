@@ -1,7 +1,6 @@
 # 🚗 Vehicle License Plate Recognition (VLPR)
 
 A Python-based application that detects and recognizes Vietnamese vehicle license plates from images using OpenCV and Tesseract OCR.
-
 ![Demo](https://github.com/Loitranph/VehicleLicensePlateRecognition/assets/your-demo.gif)
 
 ---
@@ -26,6 +25,7 @@ A Python-based application that detects and recognizes Vietnamese vehicle licens
 
 ## 📂 Folder Structure
 VehicleLicensePlateRecognition/
+
 │
 
 ├── input_images/ # Folder for testing images
