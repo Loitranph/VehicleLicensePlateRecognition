@@ -2,8 +2,6 @@
 
 A Python-based application that detects and recognizes Vietnamese vehicle license plates from images using OpenCV and Tesseract OCR.
 
-![Demo](https://github.com/Loitranph/VehicleLicensePlateRecognition/)
-
 ---
 
 ## 📌 Features
@@ -67,14 +65,6 @@ python main.py
 ```
 
 Results (with bounding boxes and text) will be saved to `output_images/`.
-
----
-
-## 📊 Example Output
-
-| Input Image | Detection Result |
-|-------------|------------------|
-| ![input](input_images/car1.jpg) | ![output](output_images/car1_output.jpg) |
 
 ---
 
